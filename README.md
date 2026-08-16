@@ -6,7 +6,7 @@
 
 <br>
 
-[![Blog](https://img.shields.io/badge/It것저것-000000?style=flat-square&logo=tistory&logoColor=white)](https://it-study-2002.tistory.com/)
+[![Blog](https://img.shields.io/badge/It것저것-000000?style=flat-square&logo=tistory&logoColor=green)](https://it-study-2002.tistory.com/)
 [![Gmail](https://img.shields.io/badge/leeseonjae0111@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:leeseonjae0111@gmail.com)
 [![Solved.ac](https://img.shields.io/badge/solved.ac-1E93F5?style=flat-square)](https://solved.ac/sunaje0111)
 
