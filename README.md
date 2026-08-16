@@ -4,9 +4,6 @@
 
 <sub>2002.01.11</sub>
 
-
-<sub><i>Studying data science & deep learning — and writing down everything I learn.</i></sub>
-
 <br>
 
 [![Blog](https://img.shields.io/badge/It것저것-000000?style=flat-square&logo=tistory&logoColor=white)](https://it-study-2002.tistory.com/)
@@ -22,8 +19,6 @@
 통계와 데이터에서 출발해 지금은 **딥러닝과 웹 개발**을 함께 배우고 있습니다.
 논문을 읽으면 직접 구현해 보고, 강의를 들으면 정리해서 블로그에 올립니다.
 "이해했다"의 기준을 **남에게 설명할 수 있는 상태**로 두려고 합니다.
-
-
 <br>
 
 ## 🛠 Tech Stack &nbsp;·&nbsp; 기술 스택
@@ -42,19 +37,18 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Sunjae-L22&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight&card_width=450">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sunjae-L22&show_icons=true&hide_border=true&include_all_commits=true&card_width=450" alt="Sunjae-L22의 GitHub 통계 카드">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunjae-L22&layout=compact&hide_border=true&langs_count=6&theme=tokyonight">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunjae-L22&layout=compact&hide_border=true&langs_count=6" alt="가장 많이 사용한 언어 카드">
-</picture>
+<img src="./github-metrics.svg" width="560" alt="Sunjae-L22의 GitHub 활동 지표 — 저장소 수와 팔로워, 최근 반년간의 커밋 잔디, 가장 많이 사용한 언어 비율">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Sunjae-L22&hide_border=true&theme=tokyonight&date_format=[Y.]n.j&locale=ko">
-  <img height="165" src="https://streak-stats.demolab.com?user=Sunjae-L22&hide_border=true&date_format=[Y.]n.j&locale=ko" alt="커밋 연속 기록 카드">
-</picture>
+<sub>매일 오전 9시에 GitHub Actions가 직접 그려 저장소에 커밋합니다.</sub>
+
+</div>
+
+<div align="center">
+
+[![Followers](https://img.shields.io/github/followers/Sunjae-L22?style=flat-square&logo=github&logoColor=white&label=Followers&labelColor=181717&color=1E93F5)](https://github.com/Sunjae-L22?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Sunjae-L22?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&label=Stars&labelColor=181717&color=1E93F5)](https://github.com/Sunjae-L22?tab=repositories)
+[![Algorithm](https://img.shields.io/github/last-commit/Sunjae-L22/Algorithm?style=flat-square&logo=github&logoColor=white&label=Algorithm&labelColor=181717&color=40C057)](https://github.com/Sunjae-L22/Algorithm)
+[![TIL](https://img.shields.io/github/last-commit/Sunjae-L22/TIL?style=flat-square&logo=github&logoColor=white&label=TIL&labelColor=181717&color=40C057)](https://github.com/Sunjae-L22/TIL)
 
 </div>
 
