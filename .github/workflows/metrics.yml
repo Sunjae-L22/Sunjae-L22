@@ -1,0 +1,39 @@
+name: GitHub metrics
+
+on:
+  schedule:
+    # 매일 한국시간 오전 9시 (UTC 00:00)
+    - cron: "0 0 * * *"
+  # Actions 탭에서 수동 실행 — 처음 적용할 때 이걸로 한 번 돌려야 SVG가 생긴다
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    name: 통계 SVG 생성
+    runs-on: ubuntu-latest
+    steps:
+      - name: 종합 지표 (헤더 · 저장소 · 언어 · 잔디)
+        uses: lowlighter/metrics@latest
+        with:
+          # PAT을 저장소 Secrets에 METRICS_TOKEN 이름으로 등록해야 한다
+          token: ${{ secrets.METRICS_TOKEN }}
+          # 커밋은 Actions 기본 토큰으로 — 따로 설정할 것 없음
+          committer_token: ${{ github.token }}
+          user: Sunjae-L22
+          filename: github-metrics.svg
+          template: classic
+          base: header, repositories
+          config_timezone: Asia/Seoul
+
+          # 사용 언어 비율
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
+
+          # 커밋 잔디 (streak 카드 대체)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year

@@ -1,0 +1,30 @@
+name: Latest blog post workflow
+
+on:
+  schedule:
+    # 매일 한국시간 오전 9시 (UTC 00:00)
+    - cron: "0 0 * * *"
+  # Actions 탭에서 수동 실행 가능 — 처음 적용할 때 이걸로 한 번 돌린다
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: README에 최신 블로그 글 반영
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://it-study-2002.tistory.com/rss"
+          max_post_count: 5
+          template: "- [$title]($url) &nbsp;<sub>$date</sub>$newline"
+          date_format: "yyyy.mm.dd"
+          commit_message: "chore: 최신 블로그 글 갱신"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
