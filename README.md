@@ -90,7 +90,3 @@
 
 <br>
 
-<div align="center">
-<sub>배운 것을 남기지 않으면 배우지 않은 것과 같다고 생각합니다.</sub><br>
-<sub><i>If I don't write it down, I haven't really learned it.</i></sub>
-</div>
